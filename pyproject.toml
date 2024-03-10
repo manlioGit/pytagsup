@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytagsup"
+version = "0.1"
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+authors = [
+  {name = "Manlio Modugno", email = "manliomodugno@gmail.com"}
+]
+description = "PyTagsup is a small XML/HTML construction templating library for Python, inspired by JavaTags. "
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["tags", "html", "templating"]
+
+[project.urls]
+Homepage = "https://github.com/manlioGit/pytagsup"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+addopts = ["--import-mode=importlib"]
