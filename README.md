@@ -120,7 +120,7 @@ renders
 xxx='fa fa-up'
 ```
 
-see [unit tests](https://github.com/manlioGit/ruby-tags/blob/master/test/ruby/attribute_test.rb) for other examples
+see [unit tests](https://github.com/manlioGit/pytagsup/tree/master/tests) for other examples
 
 ### Layouts:
 
