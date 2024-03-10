@@ -120,7 +120,7 @@ renders
 xxx='fa fa-up'
 ```
 
-see [unit tests](https://github.com/manlioGit/pytagsup/tree/master/tests) for other examples
+see [unit tests](https://github.com/manlioGit/pytagsup/blob/master/tests/test_attribute.py) for other examples
 
 ### Layouts:
 
