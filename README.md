@@ -262,7 +262,7 @@ def test_equality(self):
   assert div1 == div2
 ```
 
-see [unit tests](https://github.com/manlioGit/ruby-tags/tree/master/test/pytagsup) for other examples
+see [unit tests](https://github.com/manlioGit/pytagsup/tree/master/tests) for other examples
 
 ## Development
 
